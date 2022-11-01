@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+{% load static %}
+
+
+{% block content %}
+<div class="form-SignUp BG-Blue">
+
+    <body class="AccountCreationPage">
+        <div class="wrapper BR-30">
+            <form action="" id="wizard">
+                <!-- SECTION 1 -->
+                <h2></h2>
+                <section>
+                    <div class="inner mt-5 BR-30">
+                        <div class="image-holder BR-TL-30 BR-BL-30">
+                            <img src="{% static 'Images/Img_SmilingGirl3.png' %}" alt="">
+                        </div>
+                        <div class="form-content form-SignUp">
+                            <div class="form-header">
+                                <h3>Registration</h3>
+                            </div>
+                            <p>Please fill with your details</p>
+                            <div class="form-row">
+                                <div class="form-holder">
+                                    <input type="text" placeholder="First Name" class="form-control">
+                                </div>
+                                <div class="form-holder">
+                                    <input type="text" placeholder="Last Name" class="form-control">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-holder">
+                                    <input type="text" placeholder="Your Email" class="form-control">
+                                </div>
+                                <div class="form-holder">
+                                    <input type="text" placeholder="Phone Number" class="form-control">
+                                </div>
+                            </div>
+
+
+                            <div class="mt-5">
+                                <button class="Btn-Primary">Register
+                                </button>
+                            </div>
+                            <div class="checkbox-circle mt-3 pb-5">
+                                <label>
+                                    <input type="checkbox" checked> Already have an account? Login Here.
+                                    <span class="checkmark"></span>
+                                </label>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+
+            </form>
+        </div>
+
+
+
+    </body>
+</div>
+{% endblock %}
