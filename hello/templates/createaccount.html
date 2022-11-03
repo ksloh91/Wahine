@@ -10,7 +10,7 @@
 </head>
 
 <body>
-	<div class="wrapper">
+	<div class="wrapper BG-Blue">
 		<form action="" id="wizard">
 			<!-- SECTION 1 -->
 			<h2></h2>
@@ -71,40 +71,50 @@
 			<section>
 				<div class="inner">
 					<div class="image-holder">
-						<img src="images/form-wizard-2.jpg" alt="">
+						<img src="{% static 'Images/Img_GirlDrinkingCoffee.png' %}" alt="">
 					</div>
 					<div class="form-content">
 						<div class="form-header">
-							<h3>Registration-2</h3>
+							<h3>Select A Plan</h3>
 						</div>
-						<p>Please fill with additional info</p>
+						<p>Choose a plan.</p>
+						<!-- inner form -->
 						<div class="form-row">
-							<div class="form-holder w-100">
-								<input type="text" placeholder="Address" class="form-control">
-							</div>
-						</div>
-						<div class="form-row">
-							<div class="form-holder">
-								<input type="text" placeholder="City" class="form-control">
-							</div>
-							<div class="form-holder">
-								<input type="text" placeholder="Zip Code" class="form-control">
-							</div>
-						</div>
-
-						<div class="form-row">
-							<div class="select">
-								<div class="form-holder">
-									<div class="select-control">Your country</div>
-									<i class="zmdi zmdi-caret-down"></i>
-								</div>
-								<ul class="dropdown">
-									<li rel="United States">United States</li>
-									<li rel="United Kingdom">United Kingdom</li>
-									<li rel="Viet Nam">Viet Nam</li>
+							<!-- inner column 1 -->
+							<div class="form-holder BG-Teal p-4 BR-25">
+								<h4 class="Color-Secondary fw-bold">Lite</h4>
+								<h5 class=""><span class="fw-bold" style="color:#231D4F ;">RM19.90</span> /month</h5>
+								<br>
+								<h6 style="color:#231D4F ;">Includes:</h6>
+								<ul class="list-Items">
+									<li>Digital Vault</li>
+									<li>Bonds, stocks, shares certificates</li>
+									<li>ASNB, KWSP, Tabung Haji</li>
+									<li>Insurance Policies</li>
+									<li>Titles to moto vehicles, land</li>
+									<li>Cash accounts</li>
+									<li>Art collections and other precious items</li>
+									<li>Other tenancies, contracts, or arrangements
+										in deceased name</li>
 								</ul>
+								</p>
 							</div>
-							<div class="form-holder"></div>
+							<!-- inner column 2 -->
+							<div class="form-holder BG-Teal p-4 BR-25">
+								<h4 class="Color-Secondary fw-bold">Plus</h4>
+								<h5 class=""><span class="fw-bold" style="color:#231D4F ;">RM29.90</span> /month</h5>
+								<br>
+								<h6 style="color:#231D4F ;">Includes:</h6>
+								<ul class="list-Items">
+									<li>Digital Vault</li>
+									<li>Bonds, stocks, shares certificates</li>
+									<li>ASNB, KWSP, Tabung Haji</li>
+									<li>Insurance Policies</li>
+									<li>Titles to moto vehicles, land</li>
+									<li>Cash accounts</li>
+								</ul>
+								</p>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -119,7 +129,7 @@
 					</div>
 					<div class="form-content">
 						<div class="form-header">
-							<h3>Registration-3</h3>
+							<h3>Your Plan</h3>
 						</div>
 						<p>Send an optional message</p>
 						<div class="form-row">

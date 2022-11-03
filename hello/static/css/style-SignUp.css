@@ -68,11 +68,17 @@ img {
 
 .wrapper {
   height: 100vh;
-  background: #f9f6f1;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
+#wizard-t-0,
+#wizard-t-1,
+#wizard-t-2 {
+  padding: 0px;
+}
+
 
 .wizard {
   width: 920px;
@@ -170,6 +176,10 @@ img {
 .image-holder {
   width: 40%;
   height: 521px;
+}
+
+.image-holder img {
+  max-height: 521px;
 }
 
 .overflow-Hidden {
@@ -515,6 +525,20 @@ textarea.form-control {
   position: absolute;
   display: none;
 }
+
+.BG-Teal {
+  background: rgba(85, 188, 185, 0.24);
+}
+
+.BR-25 {
+  border-radius: 25px;
+}
+
+.list-Items li {
+  margin: 1em 0;
+}
+
+
 
 @media (max-width: 991px) {
   .wizard {
