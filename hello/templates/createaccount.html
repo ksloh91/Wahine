@@ -23,7 +23,7 @@
 						<div class="form-header">
 							<h3>Registration</h3>
 						</div>
-						<p>Please fill with your details</p>
+						<p>Please fill in your details</p>
 						<div class="form-row">
 							<div class="form-holder">
 								<input type="text" placeholder="First Name" class="form-control">
@@ -61,9 +61,9 @@
 							<label>
 								<input type="checkbox" checked> Already have an account? Sign in here.
 							</label>
+							<!-- <p class="btn-success" onclick="clickNext()">查看更多/申请</p> -->
 						</div>
 					</div>
-				</div>
 			</section>
 
 			<!-- SECTION 2 -->
@@ -125,25 +125,39 @@
 			<section>
 				<div class="inner">
 					<div class="image-holder">
-						<img src="images/form-wizard-3.jpg" alt="">
+						<img src="{% static 'Images/Img_Interview.png' %}" alt="">
 					</div>
 					<div class="form-content">
 						<div class="form-header">
 							<h3>Your Plan</h3>
 						</div>
-						<p>Send an optional message</p>
+						<p>Choose billing cycle</p>
 						<div class="form-row">
-							<div class="form-holder w-100">
-								<textarea name="" id="" placeholder="Your messagere here!" class="form-control"
-									style="height: 99px;"></textarea>
+							<div class="form-holder BG-Teal BR-25 p-3">
+								<h4 class="Color-Secondary fw-bold">Lite</h4>
+								<p class="text-start m-0">Change Plan</p>
+								</ul>
+
 							</div>
+							<div class="form-holder BG-Teal BR-25 p-3 text-end">
+								<h4 class="Color-Secondary fw-bold">RM19.90</h4>
+								<p class="text-end m-0">Per Month</p>
+								</ul>
+								<div class="mt-2 text-center">
+									<div class="form-check form-switch flex-row d-flex align-items-center">
+										<label>Monthly</label>
+										<input class="form-check-input ms-2" type="checkbox"
+											id="flexSwitchCheckDefault">
+										<label class="form-check-label ms-2" for="flexSwitchCheckDefault">Yearly</label>
+
+									</div>
+								</div>
+							</div>
+
+
+
 						</div>
-						<div class="checkbox-circle mt-24">
-							<label>
-								<input type="checkbox" checked> Please accept <a href="#">terms and conditions ?</a>
-								<span class="checkmark"></span>
-							</label>
-						</div>
+
 					</div>
 				</div>
 			</section>
@@ -157,5 +171,11 @@
 	<script src="{% static 'js/jquery.steps.js'%}"></script>
 	<script src="{% static 'js/main.js'%}"></script>
 	<!-- Template created and distributed by Colorlib -->
+
+	<script>
+		function clickNext() {
+			var a = document.querySelectorAll('[role="tab"]');
+			a.className = "testCurrent";
+		}</script>
 </body>
 {% endblock %}

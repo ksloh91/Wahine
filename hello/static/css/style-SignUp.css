@@ -127,7 +127,7 @@ img {
   content: "";
   width: 0;
   height: 2px;
-  background: #6d7f52;
+  background: #55BCB9;
   position: absolute;
   left: -68px;
   top: 5px;
@@ -135,11 +135,11 @@ img {
 }
 
 .wizard>.steps li.first a {
-  background: #6d7f52;
+  background: #55BCB9;
 }
 
 .wizard>.steps li.checked a {
-  background: #6d7f52;
+  background: #55BCB9;
 }
 
 .wizard>.steps li.checked a:after {
@@ -212,7 +212,7 @@ h3 {
 p {
   font-family: "Muli-SemiBold";
   font-size: 20px;
-  color: #6d7f52;
+  color: #666;
   text-align: center;
   margin-bottom: 26px;
 }
@@ -391,12 +391,12 @@ textarea.form-control {
 
 .actions li:last-child a {
   width: 124px;
-  background: #6d7f52;
+  background: #55BCB9;
   color: #fff;
 }
 
 .actions li:last-child a:hover {
-  background: #849963;
+  background: #55BCB9;
 }
 
 .actions li:last-child a:before {
@@ -413,7 +413,7 @@ textarea.form-control {
 }
 
 .actions li[aria-disabled="false"]~li a {
-  background: #6d7f52;
+  background: #55BCB9;
   color: #fff;
 }
 
@@ -487,7 +487,7 @@ textarea.form-control {
 }
 
 .checkbox-circle label a {
-  color: #6d7f52;
+  color: #55BCB9;
 }
 
 .checkbox-circle label a:hover {
@@ -527,7 +527,7 @@ textarea.form-control {
 }
 
 .BG-Teal {
-  background: rgba(85, 188, 185, 0.24);
+  background: rgba(85, 188, 185, 0.134);
 }
 
 .BR-25 {
@@ -538,6 +538,11 @@ textarea.form-control {
   margin: 1em 0;
 }
 
+/* Toggle Button */
+.form-check-input:checked {
+  background-color: #55BCB9;
+  border-color: #55BCB9;
+}
 
 
 @media (max-width: 991px) {
@@ -610,5 +615,8 @@ textarea.form-control {
     bottom: 3%;
   }
 }
+
+
+
 
 /*# sourceMappingURL=style.css.map */
