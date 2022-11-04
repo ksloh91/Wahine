@@ -21,6 +21,10 @@ def createaccount (request):
     # return HttpResponse('Hello from Python!')
     return render(request, "createaccount.html")
 
+def subsuccessful (request):
+    # return HttpResponse('Hello from Python!')
+    return render(request, "subsuccessful.html")
+
 
 
 # Create your views here.

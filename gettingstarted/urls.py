@@ -19,6 +19,7 @@ urlpatterns = [
     path("v2", hello.views.index_v2, name="index_v2"),
     path("joinnow", hello.views.joinnow, name="joinnow"),
     path("createaccount", hello.views.createaccount, name="createaccount"),
+    path("subsuccessful", hello.views.subsuccessful, name="subsuccessful"),
     path("db/", hello.views.db, name="db"),
     path("admin/", admin.site.urls),
 ]
