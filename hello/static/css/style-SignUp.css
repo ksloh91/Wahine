@@ -67,7 +67,7 @@ img {
 }
 
 .wrapper {
-  height: 100vh;
+  padding-top: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -80,14 +80,18 @@ img {
 }
 
 
+
+
 .wizard {
   width: 920px;
   position: relative;
+  height: max-content;
+  padding-bottom: 100px;
 }
 
 .wizard>.steps {
   position: absolute;
-  top: 27.44%;
+  top: 150px;
   right: 30%;
   transform: translateX(50%);
   z-index: 9;
@@ -162,6 +166,12 @@ img {
   position: relative;
   height: 521px;
 }
+
+#wizard>div.content.clearfix {
+  height: max-content;
+}
+
+
 
 .inner {
   display: flex;
@@ -338,7 +348,7 @@ textarea.form-control {
 
 .actions {
   position: absolute;
-  bottom: 55px;
+  bottom: 120px;
   right: 51px;
 }
 
@@ -595,6 +605,7 @@ textarea.form-control {
   .wrapper {
     height: 1201px;
     background: none;
+
   }
 
   .checkbox-circle {

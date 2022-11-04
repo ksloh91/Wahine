@@ -67,6 +67,10 @@ p a {
 
 
 /* font color */
+.Color-Primary {
+    color: #55BCB9;
+}
+
 .Color-Secondary {
     color: #8f1346;
 }
@@ -249,6 +253,10 @@ a {
 .BG-Blue {
     background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(217, 253, 255, 1) 100%);
 
+}
+
+.BG-Gray {
+    background-color: #EEF2FB;
 }
 
 /* Icon Boxes */

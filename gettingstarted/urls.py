@@ -20,6 +20,7 @@ urlpatterns = [
     path("joinnow", hello.views.joinnow, name="joinnow"),
     path("createaccount", hello.views.createaccount, name="createaccount"),
     path("subsuccessful", hello.views.subsuccessful, name="subsuccessful"),
+    path("accountinfo", hello.views.accountinfo, name="accountinfo"),
     path("db/", hello.views.db, name="db"),
     path("admin/", admin.site.urls),
 ]

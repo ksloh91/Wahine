@@ -25,6 +25,9 @@ def subsuccessful (request):
     # return HttpResponse('Hello from Python!')
     return render(request, "subsuccessful.html")
 
+def accountinfo (request):
+    # return HttpResponse('Hello from Python!')
+    return render(request, "accountinfo.html")
 
 
 # Create your views here.
