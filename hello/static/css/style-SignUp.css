@@ -189,9 +189,6 @@ img {
   width: 40%;
 }
 
-.image-holder img {
-  max-height: 521px;
-}
 
 .overflow-Hidden {
   overflow: hidden;
