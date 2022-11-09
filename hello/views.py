@@ -29,6 +29,9 @@ def accountinfo (request):
     # return HttpResponse('Hello from Python!')
     return render(request, "accountinfo.html")
 
+def assets (request):
+    # return HttpResponse('Hello from Python!')
+    return render(request, "assets.html")
 
 # Create your views here.
 

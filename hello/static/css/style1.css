@@ -75,6 +75,10 @@ p a {
     color: #8f1346;
 }
 
+.Color-LightGray {
+    color: #999;
+}
+
 /* 
 p a:hover {
     color: black;

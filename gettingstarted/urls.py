@@ -21,6 +21,7 @@ urlpatterns = [
     path("createaccount", hello.views.createaccount, name="createaccount"),
     path("subsuccessful", hello.views.subsuccessful, name="subsuccessful"),
     path("accountinfo", hello.views.accountinfo, name="accountinfo"),
+    path("assets", hello.views.assets, name="assets"),
     path("db/", hello.views.db, name="db"),
     path("admin/", admin.site.urls),
 ]

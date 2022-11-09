@@ -97,6 +97,13 @@ img {
   z-index: 9;
 }
 
+.Assets .steps {
+  position: absolute !important;
+  top: 150px !important;
+  z-index: 9;
+}
+
+
 .wizard>.steps .current-info,
 .wizard>.steps .number {
   display: none;
@@ -225,6 +232,17 @@ p {
   text-align: center;
   margin-bottom: 26px;
 }
+
+ra
+
+/* Merriweather Font */
+.font-Merri {
+  font-family: 'Merriweather', serif;
+  font-weight: lighter;
+
+}
+
+
 
 .form-row {
   display: flex;
@@ -552,6 +570,40 @@ textarea.form-control {
   background-color: #55BCB9;
   border-color: #55BCB9;
 }
+
+/* Radio Button */
+input[type="radio"] {
+  display: none;
+}
+
+.Btn-Radio label {
+  width: 284px;
+  height: 100%;
+  display: block;
+  background: white;
+  border: 1px solid #EFF0F7;
+  border-radius: 16px;
+  padding: 3rem;
+  text-align: center;
+  box-shadow: 0px 3px 10px -2px hsla(150, 5%, 65%, 0.5);
+  position: relative;
+  color: black;
+}
+
+input[type="radio"]:checked+label {
+  color: black;
+  box-shadow: 0px 0px 20px #55BCB9;
+}
+
+.Btn-Radio select,
+.Btn-Radio input {
+  width: 284px;
+  height: 100%;
+  background: white;
+  border: 1px solid #EFF0F7;
+  border-radius: 24px;
+}
+
 
 
 @media (max-width: 991px) {
