@@ -49,6 +49,10 @@ def assets_5_property (request):
     # return HttpResponse('Hello from Python!')
     return render(request, "assets-5-property.html")
 
+def assets_6_vehicles (request):
+    # return HttpResponse('Hello from Python!')
+    return render(request, "assets-6-vehicles.html")
+
 # Create your views here.
 
 
