@@ -33,6 +33,10 @@ def assets (request):
     # return HttpResponse('Hello from Python!')
     return render(request, "assets.html")
 
+def assets_2_epf (request):
+    # return HttpResponse('Hello from Python!')
+    return render(request, "assets-2-epf.html")
+
 # Create your views here.
 
 

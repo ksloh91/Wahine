@@ -116,18 +116,7 @@ p a:hover {
     margin: 0px;
 } */
 
-.Btn-Secondary {
-    color: white;
-    background-color: #8f1346;
-    border: none;
-    border-radius: 85px;
-    height: 52px;
-    width: 245px;
-    margin: auto;
-    box-shadow: 0px 5px 5px rgba(0, 0, 0, .09);
-    font-family: 'Lato', sans-serif;
-    font-size: 16px;
-}
+
 
 
 /* Nav Bar */
@@ -210,6 +199,31 @@ a {
     font-size: 16px;
 }
 
+.Btn-Secondary {
+    color: white;
+    background-color: #8f1346;
+    border: none;
+    border-radius: 85px;
+    height: 52px;
+    width: 245px;
+    margin: auto;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, .09);
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+
+.Btn-Secondary-2 {
+    color: white;
+    background-color: #8f1346;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 20px;
+    height: 52px;
+    margin: auto;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, .09);
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
 
 
 .HeroBanner {
