@@ -37,6 +37,10 @@ def assets_2_epf (request):
     # return HttpResponse('Hello from Python!')
     return render(request, "assets-2-epf.html")
 
+def assets_3_insurance (request):
+    # return HttpResponse('Hello from Python!')
+    return render(request, "assets-3-insurance.html")
+
 # Create your views here.
 
 
