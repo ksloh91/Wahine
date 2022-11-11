@@ -170,6 +170,7 @@ a {
 /* Header Logo */
 .MainLogo {
     max-width: 150px;
+    max-height: 50px;
 }
 
 .NavBar {
@@ -237,7 +238,7 @@ a {
 
 
 .Image-Centered {
-    margin-top: -280px;
+    margin-top: -480px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -263,11 +264,6 @@ a {
 
 }
 
-.Width-80P {
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-}
 
 .BG-Blue {
     background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(217, 253, 255, 1) 100%);
@@ -304,8 +300,8 @@ a {
 
 /* Icon Boxes */
 
-/* Section 4 & 5 */
-.Section4,
+/* Sginection 4 & 5 */
+/* .Section4,
 .Section5 {
     width: 80%;
     margin-left: auto;
@@ -313,7 +309,18 @@ a {
     display: flex;
     margin-bottom: 40px;
     margin-top: 60px;
+} */
+
+.margin-Right-Negative {
+    margin-right: -950px;
 }
+
+
+
+
+
+
+
 
 /* Section 6 Founders Profile Title*/
 .Section6 {
@@ -441,9 +448,9 @@ a {
 }
 
 
-/* 
+
 /* Mobile */
-/* @media screen and (max-width: 550px) {
+@media screen and (max-width: 550px) {
 
     html {
         font-size: 14px;
@@ -491,4 +498,21 @@ a {
         margin: 0;
     }
 
-} */
+    .HeroBanner {
+        min-height: 80vh;
+    }
+
+    .Image-Centered {
+        margin-top: -280px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .margin-Right-Negative {
+        margin-right: 0px;
+    }
+
+
+
+
+}

@@ -16,14 +16,15 @@
   <!-- <link rel="stylesheet" href="{% static 'css/style.css' %}"> -->
   <!-- Custom CSS -->
   <link rel="stylesheet" href="{% static 'css/style1.css' %}">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
 </head>
 
 <header>
   <!-- Bootstrap -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top bg-opacity-50 mx-auto w-75 bg-transparent  ">
-    <a class="navbar-brand" href="/"><img class="MainLogo" src="https://wahine.feelsion.com/assets/images/logo.png"
-        alt="WahineLogo">
+  <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top bg-opacity-50 mx-auto w-75 bg-transparent  ">
+    <a class="navbar-brand" href="/"><img class="MainLogo img-fluid"
+        src="https://wahine.feelsion.com/assets/images/logo.png" alt="WahineLogo">
     </a>
     <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto p-3">
@@ -44,8 +45,36 @@
     </div>
     <div><button class="Btn-Primary my-2 my-sm-0" type="submit" href="/createaccount">Log In</button></div>
 
-  </nav>
+  </nav> -->
 
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img class="MainLogo img-fluid"
+          src="https://wahine.feelsion.com/assets/images/logo.png" alt="WahineLogo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Join Now</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Career</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+
+      <a class="btn Btn-Primary" href="/joinnow" role="button" style="margin:0">Log In</a>
+    </div>
+  </nav>
 
 
 
