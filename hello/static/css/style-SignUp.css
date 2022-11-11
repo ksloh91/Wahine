@@ -643,9 +643,9 @@ input[type="radio"]:checked+label {
     padding: 50px 20px 30px;
   }
 
-  .form-row {
+  /* .form-row {
     display: block;
-  }
+  } */
 
   .form-row .form-holder,
   .form-row .select {
@@ -654,11 +654,7 @@ input[type="radio"]:checked+label {
     margin-bottom: 18px;
   }
 
-  .wrapper {
-    height: 1201px;
-    background: none;
 
-  }
 
   .checkbox-circle {
     width: 100%;
@@ -679,7 +675,15 @@ input[type="radio"]:checked+label {
     transform: translateX(50%);
     bottom: 3%;
   }
+
+  /* Assets Radio Buttons */
+  .Btn-Radio label {
+    width: auto;
+  }
 }
+
+
+
 
 
 
