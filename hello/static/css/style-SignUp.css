@@ -608,7 +608,6 @@ input[type="radio"]:checked+label {
 
 
 
-
 @media (max-width: 991px) {
   .wizard {
     max-width: 768px;
@@ -680,6 +679,9 @@ input[type="radio"]:checked+label {
   .Btn-Radio label {
     width: auto;
   }
+
+
+
 }
 
 

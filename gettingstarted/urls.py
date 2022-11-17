@@ -27,6 +27,7 @@ urlpatterns = [
     path("assets-4-investment", hello.views.assets_4_investment, name="assets-4-investment"),
     path("assets-5-property", hello.views.assets_5_property, name="assets-5-property"),
     path("assets-6-vehicles", hello.views.assets_6_vehicles, name="assets-6-vehicles"),
+    path("index-v3", hello.views.index_v3, name="index-v3"),
     path("db/", hello.views.db, name="db"),
     path("admin/", admin.site.urls),
 ]

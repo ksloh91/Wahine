@@ -53,6 +53,12 @@ def assets_6_vehicles (request):
     # return HttpResponse('Hello from Python!')
     return render(request, "assets-6-vehicles.html")
 
+def index_v3 (request):
+    # return HttpResponse('Hello from Python!')
+    return render(request, "index-v3.html")
+
+
+
 # Create your views here.
 
 
