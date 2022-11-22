@@ -448,6 +448,16 @@ a {
 }
 
 
+/* Desktop Only */
+@media screen and (min-width: 768px) {
+    .margin-RightN200 {
+        margin-right: -200px;
+    }
+
+
+
+}
+
 
 /* Mobile */
 @media screen and (max-width: 550px) {
@@ -512,7 +522,8 @@ a {
         margin-right: 0px;
     }
 
-
-
+    .margin-Left100 {
+        margin-left: 100px;
+    }
 
 }

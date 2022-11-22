@@ -19,8 +19,9 @@
 			<section>
 				<div class="inner w-75 m-auto">
 					<!-- Column 1 -->
-					<div class="form-content w-75 pb-5">
+					<div class="form-content w-75 pb-5 mx-auto">
 						<div class="form-header">
+							<h2 class="Color-Secondary mb-2 d-lg-none">Step 2/4:</h2>
 							<h2 class="mb-1 Color-Secondary">Assets</h2>
 							<p>Please fill the form below to record your personal assets information. Feel free to add
 								as much detail as needed. </p>
@@ -113,13 +114,13 @@
 											<h5 class="text-black">Do You Own Any Vehicles?</h5><br>
 										</div>
 										<div class="form-row Btn-Radio mb-5">
-											<div>
+											<div class="col-lg-6 col-6">
 												<input type="radio" id="control_01" name="yesno" value="1" checked>
 												<label for="control_01">
 													<h6>Yes</h6>
 												</label>
 											</div>
-											<div class="mx-2">
+											<div class="mx-2 col-lg-6 col-6">
 												<input type="radio" id="control_02" name="yesno" value="2">
 												<label for="control_02">
 													<h6>No</h6>
@@ -130,7 +131,7 @@
 											<h5 class="text-black">Vehicle #1</h5><br>
 										</div>
 										<div class="form-row Btn-Radio">
-											<div>
+											<div class="col-lg-6 col-6">
 												<input type="radio" id="car" name="vehicle" value="car" checked>
 												<label for="car">
 													<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
@@ -142,7 +143,7 @@
 													<h6>Car</h6>
 												</label>
 											</div>
-											<div class="mx-2">
+											<div class="mx-2 col-lg-6 col-6">
 												<input type="radio" id="motor" name="vehicle" value="motor">
 												<label for="motor">
 
@@ -178,13 +179,13 @@
 												</label>
 											</div>
 										</div>
-										<div class="form-row Btn-Radio mt-5">
-											<div>
+										<div class="form-row Btn-Radio mt-5 flex-row flex-wrap flex-lg-nowrap">
+											<div class="col-12 col-lg-6 mb-5 mb-lg-0">
 												<h5>Vehicle Registration Number</h5><br>
 												<input type="text" name="VehicleRegistration" id=""
 													placeholder="A123456XX" class="px-4">
 											</div>
-											<div class="mx-1">
+											<div class="mx-1 col-12 col-lg-6 mt-5 mt-lg-0">
 												<h5>Vehicle Make & Model</h5><br>
 												<input type="text" name="VehicleMakeModel" id=""
 													placeholder="Honda Civic" class="px-4">
@@ -194,13 +195,13 @@
 											<h5 class="text-black">Do You Own Any Loan For This Vehicle?</h5><br>
 										</div>
 										<div class="form-row Btn-Radio mb-5">
-											<div>
+											<div class="col-lg-6 col-6">
 												<input type="radio" id="loanY" name="loan" value="loanY" checked>
 												<label for="loanY">
 													<h6>Yes</h6>
 												</label>
 											</div>
-											<div class="mx-2">
+											<div class="mx-2 col-lg-6 col-6">
 												<input type="radio" id="loanN" name="loan" value="loanN">
 												<label for="loanN">
 													<h6>No</h6>
@@ -239,7 +240,7 @@
 					</div>
 
 					<!-- Column 2 -->
-					<div class="BG-Gray w-25 container" style="padding:65px 51px 65px 51px;">
+					<div class="BG-Gray w-25 container d-none d-lg-block" style="padding:65px 51px 65px 51px;">
 						<div class="row align-items-center">
 							<div class="col-3"><svg xmlns="http://www.w3.org/2000/svg" width="45" height="45"
 									fill="currentColor" class="bi bi-chat-heart" viewBox="0 0 16 16">

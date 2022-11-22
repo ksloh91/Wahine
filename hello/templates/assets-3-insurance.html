@@ -19,8 +19,9 @@
 			<section>
 				<div class="inner w-75 m-auto">
 					<!-- Column 1 -->
-					<div class="form-content w-75 pb-5">
+					<div class="form-content w-75 pb-5 mx-auto">
 						<div class="form-header">
+							<h2 class="Color-Secondary mb-2 d-lg-none">Step 2/4:</h2>
 							<h2 class="mb-1 Color-Secondary">Assets</h2>
 							<p>Please fill the form below to record your personal assets information. Feel free to add
 								as much detail as needed. </p>
@@ -111,8 +112,7 @@
 									<div>
 										<h5>Applicable Insurance #1</h5><BR>
 										<div class="form-row Btn-Radio">
-											<div>
-
+											<div class="col-6 col-lg-6">
 												<input type="radio" id="control_01" name="insurance1" value="1" checked>
 												<label for="control_01">
 													<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
@@ -124,7 +124,7 @@
 													<h6>Life</h6>
 												</label>
 											</div>
-											<div class="mx-2">
+											<div class="mx-2 col-6 col-lg-6">
 												<input type="radio" id="control_03" name="insurance1" value="3">
 												<label for="control_03">
 													<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
@@ -139,7 +139,7 @@
 											</div>
 										</div>
 										<div class="form-row Btn-Radio">
-											<div>
+											<div class="col-6 col-lg-6">
 												<input type="radio" id="control_02" name="insurance1" value="2">
 												<label for="control_02">
 
@@ -154,7 +154,7 @@
 													<h6>General</h6>
 												</label>
 											</div>
-											<div class="mx-2">
+											<div class="mx-2  col-6 col-lg-6">
 												<input type="radio" id="control_05" name="insurance1" value="5">
 												<label for="control_05">
 													<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
@@ -169,13 +169,13 @@
 										</div><br>
 										<br>
 
-										<div class="form-row Btn-Radio">
-											<div>
+										<div class="form-row Btn-Radio flex-row flex-wrap flex-lg-nowrap">
+											<div class="mb-5 mb-lg-0 col-lg-6">
 												<h5>Policy Number</h5><br>
 												<input type="text" name="PolicyNumber" id="" placeholder="A123456XX"
 													class="px-4">
 											</div>
-											<div class="mx-1">
+											<div class="mx-1 mt-5 mt-lg-0 col-lg-6">
 												<h5>Nominee Details</h5><br>
 												<input type="text" name="NomineeDetails" id="" placeholder="Name"
 													class="px-4">
@@ -208,8 +208,7 @@
 									<div>
 										<h5>Applicable Insurance #2</h5><BR>
 										<div class="form-row Btn-Radio">
-											<div>
-
+											<div class="col-6 col-lg-6">
 												<input type="radio" id="control_01" name="insurance1" value="1" checked>
 												<label for="control_01">
 													<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
@@ -221,7 +220,7 @@
 													<h6>Life</h6>
 												</label>
 											</div>
-											<div class="mx-2">
+											<div class="mx-2 col-6 col-lg-6">
 												<input type="radio" id="control_03" name="insurance1" value="3">
 												<label for="control_03">
 													<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
@@ -236,7 +235,7 @@
 											</div>
 										</div>
 										<div class="form-row Btn-Radio">
-											<div>
+											<div class="col-6 col-lg-6">
 												<input type="radio" id="control_02" name="insurance1" value="2">
 												<label for="control_02">
 
@@ -251,7 +250,7 @@
 													<h6>General</h6>
 												</label>
 											</div>
-											<div class="mx-2">
+											<div class="mx-2  col-6 col-lg-6">
 												<input type="radio" id="control_05" name="insurance1" value="5">
 												<label for="control_05">
 													<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
@@ -266,13 +265,13 @@
 										</div><br>
 										<br>
 
-										<div class="form-row Btn-Radio">
-											<div>
+										<div class="form-row Btn-Radio flex-row flex-wrap flex-lg-nowrap">
+											<div class="mb-5 mb-lg-0 col-lg-6">
 												<h5>Policy Number</h5><br>
 												<input type="text" name="PolicyNumber" id="" placeholder="A123456XX"
 													class="px-4">
 											</div>
-											<div class="mx-1">
+											<div class="mx-1 mt-5 mt-lg-0 col-lg-6">
 												<h5>Nominee Details</h5><br>
 												<input type="text" name="NomineeDetails" id="" placeholder="Name"
 													class="px-4">
@@ -291,12 +290,15 @@
 									<!-- Billing Cycle Toggle -->
 									<div class="mt-4 pt-5 text-center">
 										<div class="form-check form-switch flex-row d-flex align-items-center">
-											<input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+											<input class="form-check-input" type="checkbox" checked
+												id="flexSwitchCheckDefault">
 											<label class="form-check-label ms-2" for="flexSwitchCheckDefault">Add More
 												Insurance</label>
 
 										</div>
 									</div>
+
+									<br><br>
 
 								</DIV>
 
@@ -317,7 +319,7 @@
 					</div>
 
 					<!-- Column 2 -->
-					<div class="BG-Gray w-25 container" style="padding:65px 51px 65px 51px;">
+					<div class="BG-Gray w-25 container d-none d-lg-block" style="padding:65px 51px 65px 51px;">
 						<div class="row align-items-center">
 							<div class="col-3"><svg xmlns="http://www.w3.org/2000/svg" width="45" height="45"
 									fill="currentColor" class="bi bi-chat-heart" viewBox="0 0 16 16">
