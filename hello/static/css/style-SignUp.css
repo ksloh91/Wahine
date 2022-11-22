@@ -665,13 +665,13 @@ input[type="radio"]:checked+label {
 
   .wizard>.steps {
     right: 50%;
-    top: 52%;
+    top: 120px;
     transform: translateX(50%);
   }
 
   .actions {
     right: 50%;
-    transform: translateX(50%);
+    transform: translaßteX(50%);
     bottom: 3%;
   }
 
