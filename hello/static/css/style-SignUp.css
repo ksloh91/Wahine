@@ -579,7 +579,7 @@ input[type="radio"] {
 }
 
 .Btn-Radio label {
-  width: 284px;
+  /* width: 284px; */
   height: 100%;
   display: block;
   background: white;
