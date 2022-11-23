@@ -29,6 +29,7 @@ urlpatterns = [
     path("assets-6-vehicles", hello.views.assets_6_vehicles, name="assets-6-vehicles"),
     path("index-v3", hello.views.index_v3, name="index-v3"),
     path("edits-assets-bank", hello.views.edits_assets_bank, name="edits-assets-bank"),
+    path("edits-assets-epf", hello.views.edits_assets_epf, name="edits-assets-epf"),
     path("db/", hello.views.db, name="db"),
     path("admin/", admin.site.urls),
 ]

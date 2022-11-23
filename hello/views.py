@@ -62,7 +62,9 @@ def edits_assets_bank (request):
     # return HttpResponse('Hello from Python!')
     return render(request, "edits-assets-bank.html")
 
-
+def edits_assets_epf (request):
+    # return HttpResponse('Hello from Python!')
+    return render(request, "edits-assets-epf.html")
 
 # Create your views here.
 

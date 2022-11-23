@@ -599,7 +599,7 @@ input[type="radio"]:checked+label {
 
 .Btn-Radio select,
 .Btn-Radio input {
-  width: 284px;
+  width: 100%;
   height: 100%;
   background: white;
   border: 1px solid #EFF0F7;
@@ -623,7 +623,7 @@ input[type="radio"]:checked+label {
 }
 
 @media (max-width: 767px) {
-  .Bg-Blue {
+  .Bg-White {
     background-color: white;
   }
 

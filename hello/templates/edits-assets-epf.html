@@ -1,0 +1,163 @@
+{% extends "base.html" %}
+{% load static %}
+
+
+{% block content %}
+
+<head>
+	<!-- STYLE CSS -->
+	<link rel="stylesheet" href="{% static 'css/style-SignUp.css' %}">
+	<!-- Steps CSS and JS -->
+	<link rel="stylesheet" href="{% static 'css/steps.css' %}">
+</head>
+
+<body>
+	<div class="wrapper BG-Blue pb-5">
+		<form action="" id="wizard" class="Assets">
+			<!-- SECTION 1 -->
+			<h2></h2>
+			<section>
+				<div class="m-auto">
+					<!-- Column 1 -->
+					<div class="form-content w-100 pb-5 mx-auto">
+						<div class="form-header">
+							<h2 class="mb-1 Color-Secondary">EPF/SOCSO</h2>
+							<p>Please fill the form below to record your personal assets information. Feel free to add
+								as much detail as needed. </p>
+						</div>
+
+
+
+						<!-- Left Column Inner Column -->
+						<div class="inner pb-5">
+
+							<div class="form-content w-100 pb-3">
+
+
+								<!-- EPF -->
+								<DIV class="mb-5">
+									<h4 class="text-black">EPF</h4>
+									<p class="text-start">Fill in your EPF information.</p><br>
+									<!-- Information -->
+									<div>
+										<h5>Are You An EPF Member?</h5><BR>
+										<div class="form-row row Btn-Radio">
+											<div class="col-6 col-lg-4">
+												<input type="radio" id="control_01" name="epf" value="1" checked>
+												<label for="control_01">
+													<h6>Yes</h6>
+												</label>
+
+											</div>
+											<div class="col-6 col-lg-4">
+												<input type="radio" id="control_02" name="epf" value="2">
+												<label for="control_02">
+													</svg>
+													<h6>No</h6>
+												</label>
+											</div>
+										</div>
+										<br>
+
+										<div class="form-row Btn-Radio flex-row flex-wrap flex-lg-nowrap">
+											<div class="mb-5 mb-lg-0 col-lg-6">
+												<h5>Membership Number</h5><br>
+												<input type="text" name="BankAccNumber" id=""
+													placeholder="950112-XX-XXXX" class="px-4">
+											</div>
+											<div class="mt-5 mt-lg-0 col-lg-6">
+												<h5>Nominee Details</h5><br>
+												<input type="text" name="BankAccNumber" id="" placeholder="Name"
+													class="px-4">
+											</div>
+										</div>
+										<br><br><br>
+										<div class="form-row Btn-Radio">
+
+											<div class="mx-1">
+												<h5>Account Value</h5><br>
+												<input type="text" name="EPFAccValue" id="" placeholder="RM1,000,000"
+													class="px-4">
+											</div>
+
+										</div>
+									</div>
+
+								</DIV>
+
+
+								<!-- SOCSO -->
+								<DIV class="" style="margin-top: 7rem;">
+									<h4 class="text-black">SOCSO</h4>
+									<p class="text-start">Fill in your SOCSO information.</p><br>
+									<!-- Information -->
+									<div>
+										<h5>Are You A SOCSO Member?</h5><BR>
+										<div class="form-row Btn-Radio">
+											<div class="col-6 col-lg-6">
+												<input type="radio" id="control_03" name="socso" value="1" checked>
+												<label for="control_03">
+													<h6>Yes</h6>
+												</label>
+
+											</div>
+											<div class="mx-1 col-lg-6 col-6">
+												<input type="radio" id="control_04" name="socso" value="2">
+												<label for="control_04">
+													</svg>
+													<h6>No</h6>
+												</label>
+											</div>
+										</div>
+										<br>
+
+										<div class="form-row Btn-Radio flex-row flex-wrap flex-lg-nowrap">
+											<div class="col-12 col-lg-6 mb-5 mb-lg-0">
+												<h5>Membership Number</h5><br>
+												<input type="text" name="BankAccNumber" id=""
+													placeholder="950112-XX-XXXX" class="px-4">
+											</div>
+											<div class=" col-12 col-lg-6 mt-5 mt-lg-0">
+												<h5>Nominee Details</h5><br>
+												<input type="text" name="BankAccNumber" id="" placeholder="Name"
+													class="px-4">
+											</div>
+
+										</div>
+										<br><br><br>
+										<div class="form-row Btn-Radio">
+
+											<div class="mx-1">
+												<h5>Account Value</h5><br>
+												<input type="text" name="SOCSOValue" id="" placeholder="RM1,000,000"
+													class="px-4">
+											</div>
+
+										</div>
+									</div>
+								</DIV>
+
+								<!-- Button -->
+								<div class="mt-5">
+									<a class="btn Btn-Secondary-2 mt-5" href="/assets" role="button">Back</a>
+
+									<a class="btn Btn-Primary mt-5 float-end" href="/assets-3-insurance"
+										role="button">Next</a>
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+
+
+			</section>
+
+
+
+		</form>
+	</div>
+
+
+</body>
+{% endblock %}
