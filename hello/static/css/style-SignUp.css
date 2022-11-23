@@ -607,6 +607,71 @@ input[type="radio"]:checked+label {
 }
 
 
+/* Flickity Flow Steps */
+
+* {
+  box-sizing: border-box;
+}
+
+.flickity-slider,
+.flickity-viewport {
+  /*   background: lightblue; */
+  /* width: 425px; */
+  /*   overflow: hidden; */
+}
+
+.flickity-viewport {
+  overflow: hidden;
+}
+
+.carousel-cell {
+  width: 33%;
+  /*   height: 200px; */
+  /*   background: #8C8; */
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  counter-increment: carousel-cell;
+}
+
+/* .form-stepper-circle {
+  background: #55BCB9 !important;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  color: white;
+  font-size: 0.7rem;
+} */
+
+.carousel a {
+  color: #6c757d !important;
+  font-size: 0.7rem;
+  text-align: center;
+}
+
+.carousel .label {
+  margin-top: 10px;
+
+}
+
+
+/* .carousel-cell:before {
+  display: block;
+  text-align: center;
+  content: counter(carousel-cell);
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+} */
+
+
+
+
 
 
 

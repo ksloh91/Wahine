@@ -53,6 +53,11 @@ def assets_6_vehicles (request):
     # return HttpResponse('Hello from Python!')
     return render(request, "assets-6-vehicles.html")
 
+def assets_7_others (request):
+    # return HttpResponse('Hello from Python!')
+    return render(request, "assets-7-others.html")
+
+
 def index_v3 (request):
     # return HttpResponse('Hello from Python!')
     return render(request, "index-v3.html")
