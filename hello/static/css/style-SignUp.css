@@ -56,6 +56,7 @@ ul {
 }
 
 a {
+
   text-decoration: none;
 }
 
@@ -609,6 +610,7 @@ input[type="radio"]:checked+label {
 
 
 
+
 @media (max-width: 991px) {
   .wizard {
     max-width: 768px;
@@ -621,6 +623,10 @@ input[type="radio"]:checked+label {
 }
 
 @media (max-width: 767px) {
+  .Bg-Blue {
+    background-color: white;
+  }
+
   .inner {
     display: block;
     box-shadow: none;

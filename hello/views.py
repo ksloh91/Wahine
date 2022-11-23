@@ -58,6 +58,11 @@ def index_v3 (request):
     return render(request, "index-v3.html")
 
 
+def edits_assets_bank (request):
+    # return HttpResponse('Hello from Python!')
+    return render(request, "edits-assets-bank.html")
+
+
 
 # Create your views here.
 
