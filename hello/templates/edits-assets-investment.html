@@ -1,0 +1,180 @@
+{% extends "base.html" %}
+{% load static %}
+
+
+{% block content %}
+
+<head>
+	<!-- STYLE CSS -->
+	<link rel="stylesheet" href="{% static 'css/style-SignUp.css' %}">
+	<!-- Steps CSS and JS -->
+	<link rel="stylesheet" href="{% static 'css/steps.css' %}">
+</head>
+
+<body>
+	<div class="wrapper bg-white pb-5">
+		<form action="" id="wizard" class="Assets">
+			<!-- SECTION 1 -->
+			<h2></h2>
+			<section>
+				<div class="m-auto">
+					<!-- Column 1 -->
+					<div class="form-content w-100 pb-5 mx-auto">
+						<div class="form-header">
+
+							<h2 class="mb-1 Color-Secondary">Investments</h2>
+							<p>Please fill the form below to record your personal assets information. Feel free to add
+								as much detail as needed. </p>
+						</div>
+
+
+
+						<!-- Left Column Inner Column -->
+						<div class="inner pb-5">
+
+							<div class="form-content w-100 pb-3">
+
+
+								<!-- Investment -->
+								<DIV class="mb-5">
+									<h4 class="text-black">Investment Details</h4>
+									<p class="text-start">Fill in your investment information.</p><br>
+									<!-- Information -->
+									<!-- Core Investment #1 -->
+									<div>
+										<div class="form-row row Btn-Radio">
+											<div class="col-lg-6 col-12">
+												<h5 class="Color-Primary">Core Investment</h5><br>
+												<select name="cars" id="cars" class="px-4">
+													<option value="TabungHaji">Tabung Haji</option>
+													<option value="Maybank">Maybank</option>
+													<option value="CIMB">CIMB</option>
+													<option value="RHB">RHB</option>
+													<option value="UOB">UOB</option>
+												</select>
+											</div>
+										</div>
+										<br><br>
+										<br>
+										<div class="form-row row Btn-Radio flex-row flex-wrap flex-lg-nowrap">
+											<div class="col-12 col-lg-6 mb-5 mb-lg-0">
+												<h5>Account Number</h5><br>
+												<input type="text" name="AccNumber" id="" placeholder="A123456XX"
+													class="px-4">
+											</div>
+											<div class="col-12 col-lg-6 mt-5 mt-lg-0">
+												<h5>Fund Name</h5><br>
+												<input type=" text" name="FundName" id="" placeholder="Name"
+													class="px-4">
+											</div>
+										</div><br><br><br>
+										<div class="form-row row Btn-Radio">
+											<div class="col-lg-6 col-12">
+												<h5>Investment Value</h5><br>
+												<input type="text" name="InvestmentValue" id="" placeholder="RM100,000"
+													class="px-4">
+											</div>
+										</div>
+									</div>
+									<!-- Billing Cycle Toggle -->
+									<div class="mt-4 pt-5 text-center">
+										<div class="form-check form-switch flex-row d-flex align-items-center">
+											<input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+											<label class="form-check-label ms-2" for="flexSwitchCheckDefault">Add More
+												Core Investment
+											</label>
+
+										</div>
+									</div>
+
+
+
+									<!-- Unit Trust Investment -->
+									<div class="mt-5">
+										<h5 class="Color-Primary">Unit Trust Investment</h5><BR>
+										<div class="form-row row Btn-Radio">
+											<div class="col-6 col-lg-6">
+												<input type="radio" id="control_01" name="yesno" value="1" checked>
+												<label for="control_01">
+
+													<h6>Yes</h6>
+												</label>
+											</div>
+											<div class="col-6 col-lg-6">
+												<input type="radio" id="control_02" name="yesno" value="2">
+												<label for="control_02">
+													<h6>No</h6>
+												</label>
+											</div>
+										</div>
+										<br>
+										<br>
+
+										<div class="form-row row Btn-Radio flex-row flex-wrap flex-lg-nowrap">
+											<div class="col-12 col-lg-6 mb-5 mb-lg-0">
+												<h5>Unit Trust Name</h5><br>
+												<select name="cars" id="cars" class="px-4">
+													<option value="SelectABank">Select A Bank</option>
+													<option value="Maybank">Maybank</option>
+													<option value="CIMB">CIMB</option>
+													<option value="RHB">RHB</option>
+													<option value="UOB">UOB</option>
+												</select>
+
+											</div>
+											<div class="col-12 col-lg-6 mt-5 mt-lg-0">
+												<h5>Account Number</h5><br>
+												<input type="text" name="AccNumber" id="" placeholder="A123456XX"
+													class="px-4">
+											</div>
+
+										</div>
+										<br><br><br>
+										<div class="form-row row Btn-Radio">
+
+											<div class="mx-1 col-lg-6 col-12">
+												<h5>Investment Value</h5><br>
+												<input type="text" name="InvestmentValue" id="" placeholder="Name"
+													class="px-4">
+											</div>
+										</div>
+									</div>
+									<!-- Billing Cycle Toggle -->
+									<div class="mt-4 pt-5 text-center">
+										<div class="form-check form-switch flex-row d-flex align-items-center">
+											<input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+											<label class="form-check-label ms-2" for="flexSwitchCheckDefault">Add More
+												Unit Trust Investment</label>
+
+										</div>
+									</div>
+								</DIV>
+
+
+
+
+								<!-- Button -->
+								<div class="mt-5">
+									<a class="btn Btn-Secondary-2 mt-5" href="/edits-assets-insurance"
+										role="button">Back</a>
+
+									<a class="btn Btn-Primary mt-5 float-end" href="/edits-assets-property"
+										role="button">Next</a>
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+
+
+			</section>
+
+
+
+		</form>
+	</div>
+
+
+</body>
+{% endblock %}

@@ -30,6 +30,10 @@ urlpatterns = [
     path("index-v3", hello.views.index_v3, name="index-v3"),
     path("edits-assets-bank", hello.views.edits_assets_bank, name="edits-assets-bank"),
     path("edits-assets-epf", hello.views.edits_assets_epf, name="edits-assets-epf"),
+    path("edits-assets-insurance", hello.views.edits_assets_insurance, name="edits-assets-insurance"),
+    path("edits-assets-investment", hello.views.edits_assets_investment, name="edits-assets-investment"),
+    path("edits-assets-property", hello.views.edits_assets_property, name="edits-assets-property"),
+    path("edits-assets-vehicles", hello.views.edits_assets_vehicles, name="edits-assets-vehicles"),
     path("db/", hello.views.db, name="db"),
     path("admin/", admin.site.urls),
 ]

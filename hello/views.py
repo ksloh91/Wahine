@@ -66,6 +66,22 @@ def edits_assets_epf (request):
     # return HttpResponse('Hello from Python!')
     return render(request, "edits-assets-epf.html")
 
+def edits_assets_insurance (request):
+    # return HttpResponse('Hello from Python!')
+    return render(request, "edits-assets-insurance.html")
+
+def edits_assets_investment (request):
+    # return HttpResponse('Hello from Python!')
+    return render(request, "edits-assets-investment.html")
+
+def edits_assets_property (request):
+    # return HttpResponse('Hello from Python!')
+    return render(request, "edits-assets-property.html")
+
+def edits_assets_vehicles (request):
+    # return HttpResponse('Hello from Python!')
+    return render(request, "edits-assets-vehicles.html")
+
 # Create your views here.
 
 
