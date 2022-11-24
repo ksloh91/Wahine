@@ -99,6 +99,13 @@ def liabilities_2_personalloan (request):
     # return HttpResponse('Hello from Python!')
     return render(request, "liabilities-2-personalloan.html")
 
+def liabilities_3_vehiclesloan (request):
+    # return HttpResponse('Hello from Python!')
+    return render(request, "liabilities-3-vehiclesloan.html")
+
+def liabilities_4_property (request):
+    # return HttpResponse('Hello from Python!')
+    return render(request, "liabilities-4-property.html")
 
 # Create your views here.
 
