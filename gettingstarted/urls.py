@@ -41,6 +41,7 @@ urlpatterns = [
     path("liabilities-3-vehiclesloan", hello.views.liabilities_3_vehiclesloan, name="liabilities-3-vehiclesloan"),
     path("liabilities-4-property", hello.views.liabilities_4_property, name="liabilities-4-property"),
     path("liabilities-5-others", hello.views.liabilities_5_others, name="liabilities-5-others"),
+    path("edits-liabilities-creditcard", hello.views.edits_liabilities_creditcard, name="edits-liabilities-creditcard"),
     path("db/", hello.views.db, name="db"),
     path("admin/", admin.site.urls),
 ]

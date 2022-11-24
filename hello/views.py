@@ -111,6 +111,10 @@ def liabilities_5_others (request):
     # return HttpResponse('Hello from Python!')
     return render(request, "liabilities-5-others.html")
 
+def edits_liabilities_creditcard (request):
+    # return HttpResponse('Hello from Python!')
+    return render(request, "edits-liabilities-creditcard.html")
+
 # Create your views here.
 
 
