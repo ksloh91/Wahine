@@ -107,6 +107,10 @@ def liabilities_4_property (request):
     # return HttpResponse('Hello from Python!')
     return render(request, "liabilities-4-property.html")
 
+def liabilities_5_others (request):
+    # return HttpResponse('Hello from Python!')
+    return render(request, "liabilities-5-others.html")
+
 # Create your views here.
 
 

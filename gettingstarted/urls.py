@@ -38,6 +38,9 @@ urlpatterns = [
     path("edits-assets-others", hello.views.edits_assets_others, name="edits-assets-others"),
     path("liabilities-1-creditcard", hello.views.liabilities_1_creditcard, name="liabilities-1-creditcard"),
     path("liabilities-2-personalloan", hello.views.liabilities_2_personalloan, name="liabilities-2-personalloan"),
+    path("liabilities-3-vehiclesloan", hello.views.liabilities_3_vehiclesloan, name="liabilities-3-vehiclesloan"),
+    path("liabilities-4-property", hello.views.liabilities_4_property, name="liabilities-4-property"),
+    path("liabilities-5-others", hello.views.liabilities_5_others, name="liabilities-5-others"),
     path("db/", hello.views.db, name="db"),
     path("admin/", admin.site.urls),
 ]
