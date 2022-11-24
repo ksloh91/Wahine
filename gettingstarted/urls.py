@@ -36,6 +36,7 @@ urlpatterns = [
     path("edits-assets-property", hello.views.edits_assets_property, name="edits-assets-property"),
     path("edits-assets-vehicles", hello.views.edits_assets_vehicles, name="edits-assets-vehicles"),
     path("edits-assets-others", hello.views.edits_assets_others, name="edits-assets-others"),
+    path("liabilities-1-creditcard", hello.views.liabilities_1_creditcard, name="liabilities-1-creditcard"),
     path("db/", hello.views.db, name="db"),
     path("admin/", admin.site.urls),
 ]

@@ -90,6 +90,14 @@ def edits_assets_vehicles (request):
 def edits_assets_others (request):
     # return HttpResponse('Hello from Python!')
     return render(request, "edits-assets-others.html")
+
+def liabilities_1_creditcard (request):
+    # return HttpResponse('Hello from Python!')
+    return render(request, "liabilities-1-creditcard.html")
+
+
+
+
 # Create your views here.
 
 
