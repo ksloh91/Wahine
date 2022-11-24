@@ -9,7 +9,6 @@
 	<link rel="stylesheet" href="{% static 'css/style-SignUp.css' %}">
 	<!-- Steps CSS and JS -->
 	<link rel="stylesheet" href="{% static 'css/steps.css' %}">
-	<link rel="stylesheet" href="{% static 'js/CustomJs.js' %}">
 </head>
 
 <body>
@@ -18,9 +17,9 @@
 			<!-- SECTION 1 -->
 			<h2></h2>
 			<section>
-				<div class="inner w-75 m-auto">
+				<div class="inner col-12 col-lg-9 m-auto">
 					<!-- Column 1 -->
-					<div class="form-content w-75 pb-5 mx-auto">
+					<div class="form-content col-12 col-lg-9 pb-5 mx-auto">
 						<div class="form-header">
 							<h2 class="Color-Secondary mb-2 d-lg-none">Step 2/4:</h2>
 							<h2 class="mb-1 Color-Secondary">Assets</h2>
@@ -34,11 +33,11 @@
 						<div class="inner pb-5">
 
 							<div class="form-content w-100 pb-3">
-								<!-- Flow Steps Desktop-->
-								<div>
-									<!-- Form Steps / Progress Bar Desktop -->
-									<ul class="form-stepper form-stepper-horizontal text-center mx-auto pl-0 overflow-scroll"
-										id="box">
+								<!-- Flow Steps -->
+								<div class="d-none d-lg-block">
+									<!-- Form Steps / Progress Bar -->
+									<ul
+										class="form-stepper form-stepper-horizontal text-center mx-auto pl-0 overflow-auto">
 										<!-- Step 1 -->
 										<li class="form-stepper-active text-center form-stepper-list" step="1">
 											<a class="mx-2" href="assets">
@@ -106,7 +105,7 @@
 								</div>
 
 								<!-- Flickity Steps Mobile -->
-								<div class="carousel"
+								<div class="carousel Flickity d-lg-none mb-5"
 									data-flickity='{ "cellAlign": "left", "freeScroll": true,"initialIndex": ".is-initial-select", "contain": true, "prevNextButtons": false, "pageDots": false }'>
 									<div class="carousel-cell is-initial-select">
 										<div class="form-stepper-active form-stepper-list">
@@ -120,7 +119,7 @@
 									</div>
 
 									<div class="carousel-cell">
-										<div class="form-stepper-active form-stepper-list">
+										<div class="form-stepper-unfinished form-stepper-list">
 											<a class="mx-2" href="assets">
 												<span class="form-stepper-circle">
 													<span>2</span>
@@ -130,7 +129,7 @@
 										</div>
 									</div>
 									<div class="carousel-cell">
-										<div class="form-stepper-active form-stepper-list">
+										<div class="form-stepper-unfinished	 form-stepper-list">
 											<a class="mx-2" href="assets">
 												<span class="form-stepper-circle">
 													<span>3</span>
@@ -140,42 +139,42 @@
 										</div>
 									</div>
 									<div class="carousel-cell">
-										<div class="form-stepper-active form-stepper-list">
+										<div class="form-stepper-unfinished form-stepper-list">
 											<a class="mx-2" href="assets">
 												<span class="form-stepper-circle">
 													<span>4</span>
 												</span>
-												<div class="label">Bank Details</div>
+												<div class="label">Investment</div>
 											</a>
 										</div>
 									</div>
 									<div class="carousel-cell">
-										<div class="form-stepper-active form-stepper-list">
+										<div class="form-stepper-unfinished form-stepper-list">
 											<a class="mx-2" href="assets">
 												<span class="form-stepper-circle">
 													<span>5</span>
 												</span>
-												<div class="label">Bank Details</div>
+												<div class="label">Property</div>
 											</a>
 										</div>
 									</div>
 									<div class="carousel-cell">
-										<div class="form-stepper-active form-stepper-list">
+										<div class="form-stepper-unfinished form-stepper-list">
 											<a class="mx-2" href="assets">
 												<span class="form-stepper-circle">
 													<span>6</span>
 												</span>
-												<div class="label">Bank Details</div>
+												<div class="label">Vehicles</div>
 											</a>
 										</div>
 									</div>
 									<div class="carousel-cell">
-										<div class="form-stepper-active form-stepper-list">
+										<div class="form-stepper-unfinished form-stepper-list">
 											<a class="mx-2" href="assets">
 												<span class="form-stepper-circle">
 													<span>7</span>
 												</span>
-												<div class="label">Bank Details</div>
+												<div class="label">Others</div>
 											</a>
 										</div>
 									</div>
@@ -184,103 +183,104 @@
 
 
 
+								<!-- Bank -->
+								<DIV class="" style="">
+									<h4 class="text-black">Bank</h4>
+									<p class="text-start">Fill in your Bank information.</p><br>
+									<!-- Information -->
+									<div>
+										<h5>Account Type</h5><BR>
+										<div class="form-row Btn-Radio justify-content-be">
 
+											<div class="col-6">
+												<input type="radio" id="control_01" name="select" value="1" checked>
+												<label for="control_01"><svg xmlns="http://www.w3.org/2000/svg"
+														width="24" height="24" fill="currentColor" class="bi bi-bank2"
+														viewBox="0 0 16 16">
+														<path
+															d="M8.277.084a.5.5 0 0 0-.554 0l-7.5 5A.5.5 0 0 0 .5 6h1.875v7H1.5a.5.5 0 0 0 0 1h13a.5.5 0 1 0 0-1h-.875V6H15.5a.5.5 0 0 0 .277-.916l-7.5-5zM12.375 6v7h-1.25V6h1.25zm-2.5 0v7h-1.25V6h1.25zm-2.5 0v7h-1.25V6h1.25zm-2.5 0v7h-1.25V6h1.25zM8 4a1 1 0 1 1 0-2 1 1 0 0 1 0 2zM.5 15a.5.5 0 0 0 0 1h15a.5.5 0 1 0 0-1H.5z" />
+													</svg>
+													<h6>
+														Saving Account</h6>
+												</label>
+											</div>
 
+											<div class="col-6 mx-2">
+												<input type="radio" id="control_02" name="select" value="2">
+												<label for="control_02"><svg xmlns="http://www.w3.org/2000/svg"
+														width="24" height="24" fill="currentColor"
+														class="bi bi-cash-stack" viewBox="0 0 16 16">
+														<path
+															d="M1 3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1H1zm7 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4z" />
+														<path
+															d="M0 5a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V5zm3 0a2 2 0 0 1-2 2v4a2 2 0 0 1 2 2h10a2 2 0 0 1 2-2V7a2 2 0 0 1-2-2H3z" />
+													</svg>
+													<h6>Current Account</h6>
+												</label>
+											</div>
 
-
-
-
-								<h4 class="text-black">Bank Details</h4>
-								<p class="text-start">Fill in your bank information.</p><br>
-								<!-- Information -->
-								<div>
-									<h5>Account Type</h5><BR>
-									<div class="form-row Btn-Radio justify-content-be">
-
-										<div class="col-6">
-											<input type="radio" id="control_01" name="select" value="1" checked>
-											<label for="control_01"><svg xmlns="http://www.w3.org/2000/svg" width="24"
-													height="24" fill="currentColor" class="bi bi-bank2"
-													viewBox="0 0 16 16">
-													<path
-														d="M8.277.084a.5.5 0 0 0-.554 0l-7.5 5A.5.5 0 0 0 .5 6h1.875v7H1.5a.5.5 0 0 0 0 1h13a.5.5 0 1 0 0-1h-.875V6H15.5a.5.5 0 0 0 .277-.916l-7.5-5zM12.375 6v7h-1.25V6h1.25zm-2.5 0v7h-1.25V6h1.25zm-2.5 0v7h-1.25V6h1.25zm-2.5 0v7h-1.25V6h1.25zM8 4a1 1 0 1 1 0-2 1 1 0 0 1 0 2zM.5 15a.5.5 0 0 0 0 1h15a.5.5 0 1 0 0-1H.5z" />
-												</svg>
-												<h6>
-													Saving Account</h6>
-											</label>
 										</div>
+										<div class="form-row Btn-Radio justify-content-between">
+											<div class="col-6">
+												<input type="radio" id="control_03" name="select" value="3">
+												<label for="control_03"><svg xmlns="http://www.w3.org/2000/svg"
+														width="24" height="24" fill="currentColor" class="bi bi-coin"
+														viewBox="0 0 16 16">
+														<path
+															d="M5.5 9.511c.076.954.83 1.697 2.182 1.785V12h.6v-.709c1.4-.098 2.218-.846 2.218-1.932 0-.987-.626-1.496-1.745-1.76l-.473-.112V5.57c.6.068.982.396 1.074.85h1.052c-.076-.919-.864-1.638-2.126-1.716V4h-.6v.719c-1.195.117-2.01.836-2.01 1.853 0 .9.606 1.472 1.613 1.707l.397.098v2.034c-.615-.093-1.022-.43-1.114-.9H5.5zm2.177-2.166c-.59-.137-.91-.416-.91-.836 0-.47.345-.822.915-.925v1.76h-.005zm.692 1.193c.717.166 1.048.435 1.048.91 0 .542-.412.914-1.135.982V8.518l.087.02z" />
+														<path
+															d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+														<path
+															d="M8 13.5a5.5 5.5 0 1 1 0-11 5.5 5.5 0 0 1 0 11zm0 .5A6 6 0 1 0 8 2a6 6 0 0 0 0 12z" />
+													</svg>
+													<h6>Fixed
+														Deposit</h6>
+												</label>
+											</div>
+										</div><br>
 
-										<div class="col-6 mx-2">
-											<input type="radio" id="control_02" name="select" value="2">
-											<label for="control_02"><svg xmlns="http://www.w3.org/2000/svg" width="24"
-													height="24" fill="currentColor" class="bi bi-cash-stack"
-													viewBox="0 0 16 16">
-													<path
-														d="M1 3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1H1zm7 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4z" />
-													<path
-														d="M0 5a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V5zm3 0a2 2 0 0 1-2 2v4a2 2 0 0 1 2 2h10a2 2 0 0 1 2-2V7a2 2 0 0 1-2-2H3z" />
-												</svg>
-												<h6>Current Account</h6>
-											</label>
+
+
+
+
+										<div class="form-row Btn-Radio flex-row flex-wrap flex-lg-nowrap">
+											<div class="col-sm-6 col-12 mb-lg-0 mb-5">
+												<h5>Bank Name</h5><br>
+												<select name="cars" id="cars" class="px-4">
+													<option value="SelectABank">Select A Bank</option>
+													<option value="Maybank">Maybank</option>
+													<option value="CIMB">CIMB</option>
+													<option value="RHB">RHB</option>
+													<option value="UOB">UOB</option>
+												</select>
+											</div>
+											<div class="col-sm-6 col-12 mx-1 mt-lg-0 mt-5">
+												<h5>Account Number</h5><br>
+												<input type="text" name="BankAccNumber" id="" placeholder="12345XXX"
+													class="px-4">
+											</div>
+
+										</div>
+										<br><br><br>
+										<div class="form-row Btn-Radio">
+
+											<div class="mx-1 col-12 col-lg-6">
+												<h5>Account Value</h5><br>
+												<input type="text" name="BankAccValue" id="" placeholder="RM1,000,000"
+													class="px-4">
+											</div>
+
 										</div>
 
 									</div>
-									<div class="form-row Btn-Radio justify-content-between">
-										<div class="col-6">
-											<input type="radio" id="control_03" name="select" value="3">
-											<label for="control_03"><svg xmlns="http://www.w3.org/2000/svg" width="24"
-													height="24" fill="currentColor" class="bi bi-coin"
-													viewBox="0 0 16 16">
-													<path
-														d="M5.5 9.511c.076.954.83 1.697 2.182 1.785V12h.6v-.709c1.4-.098 2.218-.846 2.218-1.932 0-.987-.626-1.496-1.745-1.76l-.473-.112V5.57c.6.068.982.396 1.074.85h1.052c-.076-.919-.864-1.638-2.126-1.716V4h-.6v.719c-1.195.117-2.01.836-2.01 1.853 0 .9.606 1.472 1.613 1.707l.397.098v2.034c-.615-.093-1.022-.43-1.114-.9H5.5zm2.177-2.166c-.59-.137-.91-.416-.91-.836 0-.47.345-.822.915-.925v1.76h-.005zm.692 1.193c.717.166 1.048.435 1.048.91 0 .542-.412.914-1.135.982V8.518l.087.02z" />
-													<path
-														d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
-													<path
-														d="M8 13.5a5.5 5.5 0 1 1 0-11 5.5 5.5 0 0 1 0 11zm0 .5A6 6 0 1 0 8 2a6 6 0 0 0 0 12z" />
-												</svg>
-												<h6>Fixed
-													Deposit</h6>
-											</label>
-										</div>
-									</div><br>
+								</DIV>
 
+								<!-- Button -->
+								<div class="mt-5">
+									<a class="btn Btn-Secondary-2 mt-5" href="/assets" role="button">Back</a>
 
-
-
-
-									<div class="form-row Btn-Radio flex-row flex-wrap flex-lg-nowrap">
-										<div class="col-sm-6 col-12 mb-lg-0 mb-5">
-											<h5>Bank Name</h5><br>
-											<select name="cars" id="cars" class="px-4">
-												<option value="SelectABank">Select A Bank</option>
-												<option value="Maybank">Maybank</option>
-												<option value="CIMB">CIMB</option>
-												<option value="RHB">RHB</option>
-												<option value="UOB">UOB</option>
-											</select>
-										</div>
-										<div class="col-sm-6 col-12 mx-1 mt-lg-0 mt-5">
-											<h5>Account Number</h5><br>
-											<input type="text" name="BankAccNumber" id="" placeholder="12345XXX"
-												class="px-4">
-										</div>
-
-									</div>
-									<br><br><br>
-									<div class="form-row Btn-Radio">
-
-										<div class="mx-1">
-											<h5>Account Value</h5><br>
-											<input type="text" name="BankAccValue" id="" placeholder="RM1,000,000"
-												class="px-4">
-										</div>
-
-									</div>
-
-								</div>
-								<div class="mt-5 text-end">
-									<a class="btn Btn-Primary mt-5" href="/assets-2-epf" role="button">Next</a>
-
+									<a class="btn Btn-Primary mt-5 float-end" href="/assets-2-epf"
+										role="button">Next</a>
 								</div>
 							</div>
 
@@ -289,7 +289,7 @@
 					</div>
 
 					<!-- Column 2 -->
-					<div class="BG-Gray w-25 container d-none d-lg-block" style="padding:65px 51px 65px 51px;">
+					<div class="BG-Gray col-lg-3 mx-0 container d-none d-lg-block" style="padding:65px 51px 65px 51px;">
 						<div class="row align-items-center">
 							<div class="col-3"><svg xmlns="http://www.w3.org/2000/svg" width="45" height="45"
 									fill="currentColor" class="bi bi-chat-heart" viewBox="0 0 16 16">
@@ -351,7 +351,6 @@
 
 		</form>
 	</div>
-
 	<script src="https://npmcdn.com/flickity@2/dist/flickity.pkgd.js"></script>
 
 </body>

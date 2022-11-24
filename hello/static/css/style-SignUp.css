@@ -635,7 +635,7 @@ input[type="radio"]:checked+label {
   counter-increment: carousel-cell;
 }
 
-/* .form-stepper-circle {
+.Flickity .form-stepper-active .form-stepper-circle {
   background: #55BCB9 !important;
   width: 40px;
   height: 40px;
@@ -645,8 +645,37 @@ input[type="radio"]:checked+label {
   align-items: center;
   margin: auto;
   color: white;
-  font-size: 0.7rem;
-} */
+  font-size: 1.0rem;
+}
+
+.Flickity .form-stepper-active .form-stepper-circle:hover {
+  background: #8f1346 !important;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  color: white;
+  font-size: 1.0rem;
+}
+
+.Flickity .form-stepper-unfinished .form-stepper-circle {
+  background: #f8f7ff !important;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  color: #6c757d !important;
+  font-size: 1.0rem;
+}
+
+
+
 
 .carousel a {
   color: #6c757d !important;
