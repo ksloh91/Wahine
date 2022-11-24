@@ -115,6 +115,22 @@ def edits_liabilities_creditcard (request):
     # return HttpResponse('Hello from Python!')
     return render(request, "edits-liabilities-creditcard.html")
 
+def edits_liabilities_personalloan (request):
+    # return HttpResponse('Hello from Python!')
+    return render(request, "edits-liabilities-personalloan.html")
+
+def edits_liabilities_vehiclesloan (request):
+    # return HttpResponse('Hello from Python!')
+    return render(request, "edits-liabilities-vehiclesloan.html")
+
+def edits_liabilities_property (request):
+    # return HttpResponse('Hello from Python!')
+    return render(request, "edits-liabilities-property.html")
+
+def edits_liabilities_others (request):
+    # return HttpResponse('Hello from Python!')
+    return render(request, "edits-liabilities-others.html")
+
 # Create your views here.
 
 

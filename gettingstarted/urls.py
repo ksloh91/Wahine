@@ -42,6 +42,10 @@ urlpatterns = [
     path("liabilities-4-property", hello.views.liabilities_4_property, name="liabilities-4-property"),
     path("liabilities-5-others", hello.views.liabilities_5_others, name="liabilities-5-others"),
     path("edits-liabilities-creditcard", hello.views.edits_liabilities_creditcard, name="edits-liabilities-creditcard"),
+    path("edits-liabilities-personalloan", hello.views.edits_liabilities_personalloan, name="edits-liabilities-personalloan"),
+    path("edits-liabilities-vehiclesloan", hello.views.edits_liabilities_vehiclesloan, name="edits-liabilities-vehiclesloan"),
+    path("edits-liabilities-property", hello.views.edits_liabilities_property, name="edits-liabilities-property"),
+    path("edits-liabilities-others", hello.views.edits_liabilities_others, name="edits-liabilities-others"),
     path("db/", hello.views.db, name="db"),
     path("admin/", admin.site.urls),
 ]
