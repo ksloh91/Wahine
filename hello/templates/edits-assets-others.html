@@ -1,0 +1,137 @@
+{% extends "base.html" %}
+{% load static %}
+
+
+{% block content %}
+
+<head>
+	<!-- STYLE CSS -->
+	<link rel="stylesheet" href="{% static 'css/style-SignUp.css' %}">
+	<!-- Steps CSS and JS -->
+	<link rel="stylesheet" href="{% static 'css/steps.css' %}">
+</head>
+
+<body>
+	<div class="wrapper bg-white pb-5">
+		<form action="" id="wizard" class="Assets">
+			<!-- SECTION 1 -->
+			<h2></h2>
+			<section>
+				<div class="m-auto">
+					<!-- Column 1 -->
+					<div class="form-content w-100 pb-5  mx-auto">
+						<div class="form-header">
+							<h2 class="mb-1 Color-Secondary">Others</h2>
+							<p>Please fill the form below to record your personal assets information. Feel free to add
+								as much detail as needed. </p>
+						</div>
+
+
+
+						<!-- Left Column Inner Column -->
+						<div class="inner pb-5">
+
+							<div class="form-content w-100 pb-3">
+
+
+
+								<!-- Other Assets -->
+								<DIV class="mb-5">
+									<h4 class="text-black">Other Assets</h4>
+									<p class="text-start">Fill in your other assets information.</p><br>
+									<!-- Information -->
+									<!-- Other Assets #1 -->
+									<div>
+										<div class="form-row">
+											<h5 class="text-black">Assets #1</h5><br>
+										</div>
+
+										<div class="form-row Btn-Radio mt-5 flex-row flex-wrap flex-lg-nowrap">
+											<div class="col-12 col-lg-6 mb-5 mb-lg-0">
+												<h5>Assets Name</h5><br>
+												<input type="text" name="AssetsName" id="" placeholder="Bitcoin"
+													class="px-4">
+											</div>
+											<div class="mx-1 col-12 col-lg-6 mt-5 mt-lg-0">
+												<h5>Value</h5><br>
+												<input type="text" name="OtherAssetsValue" id="" placeholder="RM100,000"
+													class=" px-4">
+											</div>
+										</div>
+
+										<!-- Billing Cycle Toggle -->
+										<div class="mt-4 pt-4 text-center">
+											<div class="form-check form-switch flex-row d-flex align-items-center mt-5">
+												<input class="form-check-input" type="checkbox" checked
+													id="flexSwitchCheckDefault">
+												<label class="form-check-label ms-2" for="flexSwitchCheckDefault">Add
+													More
+													Assets</label>
+
+											</div>
+										</div>
+									</div>
+
+									<!-- Other Assets #2 -->
+									<div>
+										<div class="form-row mt-4 pt-4">
+											<h5 class="text-black">Assets #2</h5><br>
+										</div>
+
+										<div class="form-row Btn-Radio mt-5 flex-row flex-wrap flex-lg-nowrap">
+											<div class="col-12 col-lg-6 mb-5 mb-lg-0">
+												<h5>Assets Name</h5><br>
+												<input type="text" name="AssetsName" id="" placeholder="Watch"
+													class="px-4">
+											</div>
+											<div class="mx-1 col-12 col-lg-6 mt-5 mt-lg-0">
+												<h5>Value</h5><br>
+												<input type="text" name="OtherAssetsValue" id="" placeholder="RM50,000"
+													class=" px-4">
+											</div>
+										</div>
+										<br>
+										<!-- Billing Cycle Toggle -->
+										<div class="text-center">
+											<div class="form-check form-switch flex-row d-flex align-items-center mt-5">
+												<input class="form-check-input" type="checkbox"
+													id="flexSwitchCheckDefault">
+												<label class="form-check-label ms-2" for="flexSwitchCheckDefault">Add
+													More
+													Assets</label>
+
+											</div>
+										</div>
+									</div>
+
+
+
+								</DIV>
+
+
+
+
+								<!-- Button -->
+								<div class="mt-5">
+									<a class="btn Btn-Secondary-2 mt-5" href="/edits-assets-vehicles"
+										role="button">Back</a>
+
+									<a class="btn Btn-Primary mt-5 float-end" href="#" role="button">Save</a>
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+
+
+			</section>
+
+
+
+		</form>
+	</div>
+	<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+</body>
+{% endblock %}

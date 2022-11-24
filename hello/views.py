@@ -87,6 +87,9 @@ def edits_assets_vehicles (request):
     # return HttpResponse('Hello from Python!')
     return render(request, "edits-assets-vehicles.html")
 
+def edits_assets_others (request):
+    # return HttpResponse('Hello from Python!')
+    return render(request, "edits-assets-others.html")
 # Create your views here.
 
 
