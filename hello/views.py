@@ -95,7 +95,9 @@ def liabilities_1_creditcard (request):
     # return HttpResponse('Hello from Python!')
     return render(request, "liabilities-1-creditcard.html")
 
-
+def liabilities_2_personalloan (request):
+    # return HttpResponse('Hello from Python!')
+    return render(request, "liabilities-2-personalloan.html")
 
 
 # Create your views here.

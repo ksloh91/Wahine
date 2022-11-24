@@ -19,7 +19,7 @@
 			<section>
 				<div class="inner col-12 col-lg-10 m-auto">
 					<!-- Column 1 -->
-					<div class="form-content col-12 px-lg-0 pb-5 col-lg-9 mx-auto">
+					<div class="form-content col-12 col-lg-9 px-lg-0 pb-5 mx-auto">
 						<div class="form-header">
 							<h2 class="Color-Secondary mb-2 d-lg-none">Step 3/4:</h2>
 							<h2 class="mb-1 Color-Secondary">Liabilities</h2>
@@ -49,7 +49,7 @@
 											</a>
 										</li>
 										<!-- Step 2 -->
-										<li class="form-stepper-unfinished text-center form-stepper-list" step="2">
+										<li class="form-stepper-active text-center form-stepper-list" step="2">
 											<a class="mx-2" href="assets-2-epf">
 												<span class="form-stepper-circle text-muted">
 													<span>2</span>
@@ -103,7 +103,7 @@
 									</div>
 
 									<div class="carousel-cell">
-										<div class="form-stepper-unfinished form-stepper-list">
+										<div class="form-stepper-active form-stepper-list">
 											<a class="mx-2" href="assets">
 												<span class="form-stepper-circle">
 													<span>2</span>
@@ -145,156 +145,86 @@
 
 								</div>
 
-								<!-- Vehicles -->
+								<!-- Personal Loan -->
 								<DIV class="mb-5">
-									<h4 class="text-black">Credit Card Details</h4>
-									<p class="text-start">Fill in your credit card information.</p><br>
-									<!-- Information -->
-									<!-- Core Investment #1 -->
+									<h4 class="text-black">Personal Loan</h4>
+									<p class="text-start">Fill in your personal loan information.</p><br>
+									<!-- Personal Loan #1 -->
 									<div>
-										<div class="form-row">
-											<h5 class="text-black">Do You Have A Credit Card?</h5><br>
-										</div>
-										<div class="form-row Btn-Radio mb-5">
-											<div class="col-lg-6 col-6">
-												<input type="radio" id="control_01" name="yesno" value="1" checked>
+										<h5>Do you have a personal loan?</h5><BR>
+										<div class="form-row Btn-Radio">
+											<div class="col-6 col-lg-6">
+												<input type="radio" id="control_01" name="epf" value="1" checked>
 												<label for="control_01">
 													<h6>Yes</h6>
 												</label>
+
 											</div>
-											<div class="mx-2 col-lg-6 col-6">
-												<input type="radio" id="control_02" name="yesno" value="2">
+											<div class="col-6 col-lg-6 mx-1">
+												<input type="radio" id="control_02" name="epf" value="2">
 												<label for="control_02">
+													</svg>
 													<h6>No</h6>
 												</label>
 											</div>
 										</div>
-										<div class="form-row">
-											<h5 class="text-black">Do You Use BNPL Service?</h5><br>
-										</div>
-										<div class="form-row Btn-Radio mb-5">
-											<div class="col-lg-6 col-6">
-												<input type="radio" id="control_01" name="yesno" value="1" checked>
-												<label for="control_01">
-													<h6>Yes</h6>
-												</label>
-											</div>
-											<div class="mx-2 col-lg-6 col-6">
-												<input type="radio" id="control_02" name="yesno" value="2">
-												<label for="control_02">
-													<h6>No</h6>
-												</label>
-											</div>
-										</div>
-
-
-										<div
-											class="form-row Btn-Radio mt-5 flex-row flex-wrap flex-lg-nowrap text-black">
-											<div class="col-12 col-lg-6 mb-5 mb-lg-5">
-												<h5>How Many Credit Cards Do You Have?</h5><br>
-												<select name="NumOfCreditCard" id="NumOfCreditCard" class="px-4">
-													<option value="1">1</option>
-													<option value="2">2</option>
-													<option value="3">3</option>
-													<option value="4">4</option>
-													<option value="5">5</option>
+										<br>
+										<br>
+										<h5 class="text-black">Personal Loan #1</h5>
+										<br>
+										<br>
+										<div class="form-row Btn-Radio flex-row flex-wrap flex-lg-nowrap">
+											<div class="mb-5 mb-lg-0 col-lg-6 col-12">
+												<h5>Bank Name</h5><br>
+												<select name="BankName" id="BankName" class="px-4">
+													<option value="SelectABank">Select A Bank</option>
+													<option value="Maybank">Maybank</option>
+													<option value="RHB">RHB</option>
+													<option value="CIMB">CIMB</option>
+													<option value="CitiBank">Citibank</option>
 												</select>
 											</div>
-
-										</div>
-										<br>
-										<br>
-										<!--Credit Card #1 -->
-										<div>
-											<h5 class="text-black">Credit Card #1</h5>
-											<br>
-											<br>
-
-											<div class="form-row Btn-Radio flex-row flex-wrap flex-lg-nowrap">
-												<div class="mb-5 mb-lg-0 col-lg-6 col-12">
-													<h5>Bank Name</h5><br>
-													<select name="BankName" id="BankName" class="px-4">
-														<option value="SelectABank">Select A Bank</option>
-														<option value="Maybank">Maybank</option>
-														<option value="RHB">RHB</option>
-														<option value="CIMB">CIMB</option>
-														<option value="CitiBank">Citibank</option>
-													</select>
-												</div>
-												<div class="mx-1 mt-5 mt-lg-0 col-lg-6 col-12">
-													<h5>Account Number (*Optional)</h5><br>
-													<input type="text" name="AccountNumber" id="" placeholder="Name"
-														class="px-4">
-												</div>
-											</div><br><br><br>
-											<div class="form-row Btn-Radio">
-												<div class="mx-1 col-lg-6 col-12">
-													<h5>Amount Outstanding</h5><br>
-													<input type="text" name="AmountOutstanding" id=""
-														placeholder="RM3,000" class="px-4">
-												</div>
+											<div class="mt-5 mt-lg-0 col-lg-6 col-12 mx-1">
+												<h5>Acount Number (*Optional)</h5><br>
+												<input type="text" name="AccountNumber" id="" placeholder="Name"
+													class="px-4">
 											</div>
-											<br>
-											<br>
-											<br>
-											<!-- Billing Cycle Toggle -->
-											<div class="text-center ">
-												<div class="form-check form-switch flex-row d-flex align-items-center">
-													<input class="form-check-input" type="checkbox" checked
-														id="flexSwitchCheckDefault">
-													<label class="form-check-label ms-2"
-														for="flexSwitchCheckDefault">Add More
-														Card</label>
-
-												</div>
+										</div>
+										<br><br><br>
+										<div class="form-row Btn-Radio flex-row flex-wrap flex-lg-nowrap">
+											<div class="mb-5 mb-lg-0 col-lg-6 col-12">
+												<h5>Loan Amount</h5><br>
+												<input type="text" name="LoanAmount" id="" placeholder="RM1,000,000"
+													class="px-4">
+											</div>
+											<div class="mt-5 mt-lg-0 col-lg-6 col-12 mx-1">
+												<h5>Loan Tenure</h5><br>
+												<input type="text" name="LoanTenure" id="" placeholder="3 Years"
+													class="px-4">
 											</div>
 										</div>
 										<br>
 										<br>
 										<br>
-										<!--Credit Card #2 -->
-										<div>
-											<h5 class="text-black">Credit Card #2</h5>
-											<br>
-											<br>
-
-											<div class="form-row Btn-Radio flex-row flex-wrap flex-lg-nowrap">
-												<div class="mb-5 mb-lg-0 col-lg-6 col-12">
-													<h5>Bank Name</h5><br>
-													<select name="BankName" id="BankName" class="px-4">
-														<option value="SelectABank">Select A Bank</option>
-														<option value="Maybank">Maybank</option>
-														<option value="RHB">RHB</option>
-														<option value="CIMB">CIMB</option>
-														<option value="CitiBank">Citibank</option>
-													</select>
-												</div>
-												<div class="mx-1 mt-5 mt-lg-0 col-lg-6 col-12">
-													<h5>Account Number (*Optional)</h5><br>
-													<input type="text" name="NomineeDetails" id="" placeholder="Name"
-														class="px-4">
-												</div>
-											</div><br><br><br>
-											<div class="form-row Btn-Radio">
-												<div class="mx-1 col-lg-6 col-12">
-													<h5>Amount Outstanding</h5><br>
-													<input type="text" name="AmountOutstanding" id=""
-														placeholder="RM3,000" class="px-4">
-												</div>
+										<div class="form-row Btn-Radio">
+											<div class="col-12 col-lg-6">
+												<h5>Loan Interest</h5><br>
+												<input type="text" name="LoanInterest" id="" placeholder="4 %"
+													class="px-4">
 											</div>
-											<br>
-											<br>
-											<br>
-											<!-- Billing Cycle Toggle -->
-											<div class="text-center ">
-												<div class="form-check form-switch flex-row d-flex align-items-center">
-													<input class="form-check-input" type="checkbox"
-														id="flexSwitchCheckDefault">
-													<label class="form-check-label ms-2"
-														for="flexSwitchCheckDefault">Add More
-														Card</label>
+										</div>
+										<br>
+										<br>
+										<br>
+										<!-- Billing Cycle Toggle -->
+										<div class="text-center ">
+											<div class="form-check form-switch flex-row d-flex align-items-center">
+												<input class="form-check-input" type="checkbox"
+													id="flexSwitchCheckDefault">
+												<label class="form-check-label ms-2" for="flexSwitchCheckDefault">Add
+													More
+													Loan</label>
 
-												</div>
 											</div>
 										</div>
 									</div>
@@ -303,12 +233,11 @@
 
 
 
-
 								<!-- Button -->
 								<div class="mt-5">
+									<a class="btn Btn-Secondary-2 mt-5" href="/assets" role="button">Back</a>
 
-
-									<a class="btn Btn-Primary mt-5 float-end" href="/liabilities-2-personalloan"
+									<a class="btn Btn-Primary mt-5 float-end" href="/assets-3-insurance"
 										role="button">Next</a>
 								</div>
 							</div>
@@ -380,8 +309,7 @@
 
 		</form>
 	</div>
-	<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-
+	<script src="https://npmcdn.com/flickity@2/dist/flickity.pkgd.js"></script>
 
 </body>
 {% endblock %}
