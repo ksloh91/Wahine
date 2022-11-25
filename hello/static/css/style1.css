@@ -320,11 +320,6 @@ a {
 
 
 
-
-
-
-
-
 /* Section 6 Founders Profile Title*/
 .Section6 {
     background-color: #1D3557;
@@ -459,6 +454,10 @@ a {
 }
 
 
+/* Create Account */
+.margin-B30 {
+    margin-bottom: 30px;
+}
 
 
 

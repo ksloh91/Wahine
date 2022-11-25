@@ -1,0 +1,79 @@
+{% extends "base.html" %}
+{% load static %}
+
+
+{% block content %}
+
+<head>
+	<!-- STYLE CSS -->
+	<link rel="stylesheet" href="{% static 'css/style-SignUp.css' %}">
+</head>
+
+<body>
+	<div class="wrapper container pb-5">
+		<form action="" id="wizard">
+			<!-- SECTION 1 -->
+			<h2></h2>
+			<section>
+				<div class="inner row mx-auto pb-lg-0 pb-5">
+					<!-- Column 1 -->
+					<div class="col-lg-4 px-0 image-holder overflow-Hidden d-none d-lg-block">
+						<img src="{% static 'Images/Img_SmilingGirl3.png' %}" alt="">
+					</div>
+					<!-- Column 2 -->
+					<div class="col-lg-8 form-content pb-5">
+						<div class="form-header">
+							<h3 class="margin-B30">Registration</h3>
+						</div>
+						<p>Please fill in your details</p>
+						<div class="form-row">
+							<div class="form-holder">
+								<input type="text" placeholder="First Name" class="form-control">
+							</div>
+							<div class="form-holder">
+								<input type="text" placeholder="Last Name" class="form-control">
+							</div>
+						</div>
+						<div class="form-row">
+							<div class="form-holder">
+								<input type="text" placeholder="Your Email" class="form-control">
+							</div>
+							<div class="form-holder">
+								<input type="text" placeholder="Phone Number" class="form-control">
+							</div>
+						</div>
+						<div class="form-row">
+							<div class="form-holder">
+								<input type="text" placeholder="Age" class="form-control">
+							</div>
+							<div class="form-holder" style="align-self: flex-end; transform: translateY(4px);">
+								<div class="checkbox-tick">
+									<label class="male">
+										<input type="radio" name="gender" value="male" checked> Male<br>
+										<span class="checkmark"></span>
+									</label>
+									<label class="female">
+										<input type="radio" name="gender" value="female"> Female<br>
+										<span class="checkmark"></span>
+									</label>
+								</div>
+							</div>
+						</div>
+						<div class="checkbox-circle p-0">
+							<label>
+								<input type="checkbox" checked> Already have an account? Sign in here.
+							</label>
+							-->
+						</div>
+
+						<!-- Button -->
+						<div class="mt-5">
+							<a class="btn Btn-Primary mt-2 float-end" href="/createaccount-2" role="button">Next</a>
+						</div>
+					</div>
+			</section>
+		</form>
+	</div>
+
+</body>
+{% endblock %}

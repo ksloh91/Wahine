@@ -1,0 +1,75 @@
+{% extends "base.html" %}
+{% load static %}
+
+
+{% block content %}
+
+<head>
+	<!-- STYLE CSS -->
+	<link rel="stylesheet" href="{% static 'css/style-SignUp.css' %}">
+</head>
+
+<body>
+	<div class="wrapper container pb-5">
+		<form action="" id="wizard">
+
+
+			<!-- SECTION 3 -->
+			<h2></h2>
+			<section>
+				<div class="inner row">
+					<!-- Column 1 -->
+					<div class="col-lg-4 px-0 image-holder d-none d-lg-block">
+						<img src="{% static 'Images/Img_Interview.png' %}" alt="">
+					</div>
+					<!-- Column 2 -->
+					<div class="col-lg-8 form-content">
+						<div class="form-header">
+							<h3 class="margin-B30">Your Plan</h3>
+						</div>
+						<p>Choose billing cycle</p>
+						<div class="form-row">
+							<div class="form-holder BG-Teal BR-25 p-3">
+								<h4 class="Color-Secondary fw-bold">Lite</h4>
+								<p class="text-start m-0"><small>Change Plan</small></p>
+								</ul>
+
+							</div>
+							<div class="form-holder BG-Teal BR-25 p-3 text-end mx-1">
+								<h4 class="Color-Secondary fw-bold">RM19.90</h4>
+								<p class="text-end m-0"><small>Per Month</p>
+
+								<!-- Billing Cycle Toggle -->
+								<div class="mt-2 text-center">
+									<div class="form-check form-switch flex-row d-flex align-items-center">
+										<label>Monthly</label>
+										<input class="form-check-input ms-2" type="checkbox"
+											id="flexSwitchCheckDefault">
+										<label class="form-check-label ms-2" for="flexSwitchCheckDefault">Yearly</label>
+
+									</div>
+								</div>
+							</div>
+
+						</div>
+
+						<!-- Button -->
+						<div class="mt-5">
+							<a class="btn Btn-Secondary-2 mt-5" href="/createaccount-2" role="button">Back</a>
+
+							<a class="btn Btn-Primary mt-5 float-end" href="/subsuccessful" role="button">Create
+								Account</a>
+						</div>
+
+					</div>
+				</div>
+			</section>
+
+
+
+
+		</form>
+	</div>
+
+</body>
+{% endblock %}

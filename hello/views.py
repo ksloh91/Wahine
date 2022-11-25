@@ -139,6 +139,17 @@ def overview_liabilities (request):
     # return HttpResponse('Hello from Python!')
     return render(request, "overview-liabilities.html")
 
+def createaccount_1 (request):
+    # return HttpResponse('Hello from Python!')
+    return render(request, "createaccount-1.html")
+
+def createaccount_2 (request):
+    # return HttpResponse('Hello from Python!')
+    return render(request, "createaccount-2.html")
+
+def createaccount_3 (request):
+    # return HttpResponse('Hello from Python!')
+    return render(request, "createaccount-3.html")
 
 
 # Create your views here.

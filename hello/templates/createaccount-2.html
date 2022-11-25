@@ -1,0 +1,84 @@
+{% extends "base.html" %}
+{% load static %}
+
+
+{% block content %}
+
+<head>
+	<!-- STYLE CSS -->
+	<link rel="stylesheet" href="{% static 'css/style-SignUp.css' %}">
+</head>
+
+<body>
+	<div class="wrapper container pb-5">
+		<form action="" id="wizard">
+			<!-- SECTION 2 -->
+			<h2></h2>
+			<section>
+				<div class="inner row col-10 mx-auto">
+					<div class="col-lg-4 px-0 image-holder d-none d-lg-block">
+						<img src="{% static 'Images/Img_GirlDrinkingCoffee.png' %}" alt=""
+							style="height:100%;object-fit:cover;">
+					</div>
+					<div class="col-lg-8 form-content" style="padding-bottom:100px;">
+						<div class="form-header">
+							<h3 class="margin-B30">Select A Plan</h3>
+						</div>
+						<p>Choose a plan.</p>
+						<!-- inner form -->
+						<div class="form-row">
+							<!-- inner column 1 -->
+							<div class="form-holder BG-Teal p-4 BR-25">
+								<h4 class="Color-Secondary fw-bold">Lite</h4>
+								<h5 class=""><span class="fw-bold" style="color:#231D4F ;">RM19.90</span> /month</h5>
+								<br>
+								<h6 style="color:#231D4F ;">Includes:</h6>
+								<ul class="list-Items">
+									<li>Digital Vault</li>
+									<li>Bonds, stocks, shares certificates</li>
+									<li>ASNB, KWSP, Tabung Haji</li>
+									<li>Insurance Policies</li>
+									<li>Titles to moto vehicles, land</li>
+									<li>Cash accounts</li>
+									<li>Art collections and other precious items</li>
+									<li>Other tenancies, contracts, or arrangements
+										in deceased name</li>
+								</ul>
+								</p>
+							</div>
+							<!-- inner column 2 -->
+							<div class="form-holder BG-Teal p-4 BR-25 mx-1">
+								<h4 class="Color-Secondary fw-bold">Plus</h4>
+								<h5 class=""><span class="fw-bold" style="color:#231D4F ;">RM29.90</span> /month</h5>
+								<br>
+								<h6 style="color:#231D4F ;">Includes:</h6>
+								<ul class="list-Items">
+									<li>Digital Vault</li>
+									<li>Bonds, stocks, shares certificates</li>
+									<li>ASNB, KWSP, Tabung Haji</li>
+									<li>Insurance Policies</li>
+									<li>Titles to moto vehicles, land</li>
+									<li>Cash accounts</li>
+								</ul>
+								</p>
+							</div>
+						</div>
+						<!-- Button -->
+						<div class="mt-5">
+							<a class="btn Btn-Secondary-2 mt-5" href="/createaccount-1" role="button">Back</a>
+
+							<a class="btn Btn-Primary mt-5 float-end" href="/createaccount-3" role="button">Next</a>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+
+
+
+		</form>
+	</div>
+
+</body>
+{% endblock %}
