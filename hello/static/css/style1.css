@@ -451,6 +451,19 @@ a {
 }
 
 
+
+/* Overview Page */
+.table td a {
+    all: unset;
+
+    cursor: pointer;
+}
+
+
+
+
+
+
 /* Desktop Only */
 @media screen and (min-width: 768px) {
     .margin-RightN200 {
