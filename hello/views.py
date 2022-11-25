@@ -131,6 +131,12 @@ def edits_liabilities_others (request):
     # return HttpResponse('Hello from Python!')
     return render(request, "edits-liabilities-others.html")
 
+def overview_assets (request):
+    # return HttpResponse('Hello from Python!')
+    return render(request, "overview-assets.html")
+
+
+
 # Create your views here.
 
 
