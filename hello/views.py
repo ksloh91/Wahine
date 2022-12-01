@@ -155,6 +155,10 @@ def createaccount_3 (request):
     # return HttpResponse('Hello from Python!')
     return render(request, "createaccount-3.html")
 
+def header_loggedin (request):
+    # return HttpResponse('Hello from Python!')
+    return render(request, "header-loggedin.html")
+
 
 # Create your views here.
 

@@ -52,6 +52,7 @@ urlpatterns = [
     path("edits-liabilities-others", hello.views.edits_liabilities_others, name="edits-liabilities-others"),
     path("overview-assets", hello.views.overview_assets, name="overview-assets"),
     path("overview-liabilities", hello.views.overview_liabilities, name="overview-liabilities"),
+    path("header-loggedin", hello.views.header_loggedin, name="header-loggedin"),
     path("db/", hello.views.db, name="db"),
     path("admin/", admin.site.urls),
 ]
