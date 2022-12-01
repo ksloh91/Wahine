@@ -550,4 +550,9 @@ a {
         margin-left: 100px;
     }
 
+
+    .HeroBannerContact {
+        min-height: 50vh;
+    }
+
 }
