@@ -231,8 +231,12 @@ a {
     background: url('http://wahine.wcapital.asia/wp-content/uploads/2022/10/Img_Banner3.png');
     min-height: 100vh;
     background-size: cover;
+}
 
-
+.HeroBannerContact {
+    background: url('http://wahine.wcapital.asia/wp-content/uploads/2022/12/Img_Banner_Contact.jpg');
+    min-height: 100vh;
+    background-size: cover;
 }
 
 
@@ -241,6 +245,13 @@ a {
     margin-left: auto;
     margin-right: auto;
 }
+
+.margin-TopN220 {
+    margin-top: -220px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 .Section2 {
     background-color: #747474;

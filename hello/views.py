@@ -17,6 +17,10 @@ def joinnow(request):
     # return HttpResponse('Hello from Python!')
     return render(request, "joinnow.html")
 
+def contactus(request):
+    # return HttpResponse('Hello from Python!')
+    return render(request, "contactus.html")
+
 def createaccount (request):
     # return HttpResponse('Hello from Python!')
     return render(request, "createaccount.html")
