@@ -53,6 +53,8 @@ urlpatterns = [
     path("overview-assets", hello.views.overview_assets, name="overview-assets"),
     path("overview-liabilities", hello.views.overview_liabilities, name="overview-liabilities"),
     path("header-loggedin", hello.views.header_loggedin, name="header-loggedin"),
+    path("dashboard-assets", hello.views.dashboard_assets, name="dashboard-assets"),
+    path("piechart", hello.views.piechart, name="piechart"),
     path("db/", hello.views.db, name="db"),
     path("admin/", admin.site.urls),
 ]

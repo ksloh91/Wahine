@@ -159,6 +159,14 @@ def header_loggedin (request):
     # return HttpResponse('Hello from Python!')
     return render(request, "header-loggedin.html")
 
+def dashboard_assets (request):
+    # return HttpResponse('Hello from Python!')
+    return render(request, "dashboard-assets.html")
+
+def piechart (request):
+    # return HttpResponse('Hello from Python!')
+    return render(request, "piechart.html")
+
 
 # Create your views here.
 
